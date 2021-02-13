@@ -1,0 +1,33 @@
+<div class="card">
+    <div class="card-body">
+        <div *ngIf="vehicle">
+        <div class="row mb-4">
+            <div class="col-4">
+                Make : {{vehicle.make}}
+            </div>
+            <div class="col-4">
+                Model : {{vehicle.model}}
+            </div>
+            <div class="col-4">
+                Price : {{vehicle.price}}
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-4">
+                Date Added : {{vehicle.dateAdded}}
+            </div>
+            <div class="col-4">
+                Year Model : {{vehicle.yearModel}}
+            </div>
+            <div class="col-4">
+                Vid : {{vehicle.vid}}
+            </div>
+        </div>
+        <div class="d-flex justify-content-between">
+            <button class="btn btn-primary" (click)="goHome()">Go home</button>
+            <button class="btn btn-primary" (click)="updateCart()">{{incart?'Remove from cart':'Add to cart'}}</button>
+        </div>
+        </div>
+    </div>
+</div>

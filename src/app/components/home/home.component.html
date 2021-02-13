@@ -1,0 +1,13 @@
+<div class="card" *ngFor="let warehouse of warehouses">
+    <div class="card-body">
+        <div class="row mb-2">
+            <div class="col-4"> Warehouse : {{warehouse.name}}</div>
+            <div class="col-8"> <b>Location</b> 
+                Latitude : {{warehouse.location.latitude}} Longitude : {{warehouse.location.longitude}}
+            </div>
+        </div>
+        <div *ngFor="let vehicle of warehouse.cars.vehicles" (click)="showVehicle(vehicle)">
+            <app-car [vehicle]="vehicle"></app-car>
+        </div>
+    </div>
+</div>
