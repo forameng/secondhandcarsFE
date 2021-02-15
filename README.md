@@ -7,7 +7,7 @@ To run this project one will need the below softwares pre installed
 1.Nodejs latest version  
 
  ## Getting Started
-Run `ng serve` or `npm run ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` or `npm run ng serve` or `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 Please note before running Front end server make sure to check the services are up and running by hitting the below url in browser
 `http://localhost:8081/warehouse` .
 
