@@ -2,11 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
 
-## Development server
+## Prerequisites  
+To run this project one will need the below softwares pre installed  
+1.Nodejs latest version  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ ## Getting Started
+Run `ng serve` or `npm run ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 Please note before running Front end server make sure to check the services are up and running by hitting the below url in browser
-http://localhost:8081/warehouse
+`http://localhost:8081/warehouse` .
 
 ## Running unit tests
 
